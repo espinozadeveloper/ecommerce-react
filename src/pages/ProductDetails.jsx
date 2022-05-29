@@ -30,6 +30,7 @@ export function ProductDetails() {
 
     const addToCart = (productToCart) => {
         dispatch({type: TYPES.ADD_TO_CART, payload:productToCart});
+        console.log(state);
         swal({
             title: "added to cart",
             icon: "success",
