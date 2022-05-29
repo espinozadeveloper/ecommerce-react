@@ -1,0 +1,46 @@
+.productBox{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 1rem #00000025;
+}
+
+.productCardTitle{
+    list-style: none;
+    font-size: 1rem;
+    text-align: center;
+    color:#360650
+}
+
+.productCardTitle:hover{
+    opacity: 0.8;
+}
+
+.productCardPrice{
+    list-style: none;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color:#360650
+}
+
+.productCardPrice:hover{
+    opacity: 0.8;
+}
+
+
+.productImage{
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.productImage:hover{
+    opacity: 0.8;
+}
+
+@media (max-width: 560px){
+    .productImage{
+        width: 100%;
+        height: auto;
+    }
+}
+

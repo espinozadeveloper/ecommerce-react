@@ -1,0 +1,56 @@
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    max-width: 400px;
+    margin: 25px;
+}
+
+.productImage{
+    border-radius: 5%;
+    max-height: 500px; 
+}
+
+.productCategory{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 100;
+    color:#DCDC8F;
+} 
+
+.productTitle{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 100; 
+    color:#1E002F 
+}
+
+.productRating{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100; 
+    color:#1E002F
+}
+
+.productPrice{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 100; 
+    color:#1E002F
+}
+
+.productDescription{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 100; 
+    color:#360650
+}
+
+.firstItem{
+    margin: 0;
+}

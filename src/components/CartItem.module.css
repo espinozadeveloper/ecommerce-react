@@ -1,0 +1,34 @@
+.productItemCartBox{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 2rem #00000025;
+}
+
+.productItemCartImage{
+    border-radius: 5%;
+    max-height: 500px; 
+}
+
+.productItemCartTitle{
+    list-style: none;
+    font-size: 0.9rem;
+    color:#360650
+}
+
+.productItemCartTitle:hover{
+    opacity: 0.8;
+}
+
+.productItemCartPrice{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color:#360650
+}
+
+.productItemCartPrice:hover{
+    opacity: 0.8;
+}
+
+
