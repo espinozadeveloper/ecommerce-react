@@ -1,7 +1,7 @@
 import Logo_compra_ya from "./Logo_compra_ya.png";
 import styles from "./App.module.css";
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,     
     Route,
     Link,
